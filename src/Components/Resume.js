@@ -15,15 +15,15 @@ class Resume extends Component {
     if (!this.props.data) return null;
 
     const skillmessage = this.props.data.skillmessage;
-    const education = this.props.data.education.map(function (education) {
+    const team = this.props.data.Team.map(function (team) {
       return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
+        <div key={team.school}>
+          <h3>{team.school}</h3>
           <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
+            {team.degree} <span>&bull;</span>
+            <em className="date">{team.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p>{team.description}</p>
         </div>
       );
     });
@@ -60,13 +60,13 @@ class Resume extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Education</span>
+                <span>Team</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <div className="row item">
-                <div className="twelve columns">{education}</div>
+                <div className="twelve columns">{team}</div>
               </div>
             </div>
           </div>

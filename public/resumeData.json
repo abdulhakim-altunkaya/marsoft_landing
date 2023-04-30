@@ -46,19 +46,19 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+    "skillmessage":"Our language stack combines the latest technologies with tried-and-true programming languages, providing you with reliable and scalable software solutions that meet your business needs.",
+    "Team":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Sahin Arslan",
+        "degree":"Team Leader, Founder",
+        "graduated":"2019 - ongoing",
+        "description":"As a Computer Science graduate from Çukurova University and with additional studies in Computer Science from Klaipeda University, Lithuania, team leader Sahin brings a wealth of technical knowledge and experience to our software company. Fluent in both English and German, Sahin has successfully led our team in developing innovative solutions for local and international clients over the years, particularly those based in Germany. His strong organizational and entrepreneurial skills, combined with his technical expertise in programming languages such as Python, Java, and C++, make him an invaluable leader for our software development team."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Abdulhakim Altunkaya",
+        "degree":"Intern (Blockchain, MERN and Mobile)",
+        "graduated":"2023 January - ongoing",
+        "description":"Abdulhakim's expertise in blockchain, MERN web development, and mobile development make him an essential asset to our software company team. His extensive experience in creating innovative and user-friendly applications has resulted in multiple successful launches and has earned him the respect of his colleagues and clients alike. Abdulhakim's active involvement in open-source projects on GitHub and his participation in hackathons showcase his passion for innovation and dedication to continuous learning. His strong skills in Solidity, MERN stack and React Native combined with his excellent English and intermediate German language skills contribute significantly to the success of our projects."
       }
     ],
     "work":[
