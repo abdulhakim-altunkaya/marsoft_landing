@@ -1,0 +1,185 @@
+{
+  "main": {
+    "name":"Marsoft Software Solutions",
+    "description":"Marsoft is a top-tier software solutions company based in Midyat that specializes in custom web, blockchain, and mobile application development",
+    "image":"small.png",
+    "bio":"Marsoft is a top-tier software solutions company based in Midyat that specializes in custom web, blockchain, and mobile application development using cutting-edge technologies such as React.js, Solidity, and React Native. We are committed to delivering client-focused solutions that are tailored to meet the unique needs and goals of our clients.",
+    "contactmessage":"CONTACT DETAILS AND PRICING",
+    "email": "info@marsoftyazilim.com",
+    "phone": "+905469601168",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"Kocamanoglu cad. Midyat Carsi",
+      "city":"Midyat",
+      "state":"Turkey",
+      "zip": "47510"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Our language stack combines the latest technologies with tried-and-true programming languages, providing you with reliable and scalable software solutions that meet your business needs.",
+    "Team":[
+      {
+        "school":"Sahin Arslan",
+        "degree":"Team Leader, Founder",
+        "graduated":"2019 - ongoing",
+        "description":"As a Computer Science graduate from Çukurova University and with additional studies in Computer Science from Klaipeda University, Lithuania, team leader Sahin brings a wealth of technical knowledge and experience to our software company. Fluent in both English and German, Sahin has successfully led our team in developing innovative solutions for local and international clients over the years, particularly those based in Germany. His strong organizational and entrepreneurial skills, combined with his technical expertise in programming languages such as Python, Java, and C++, make him an invaluable leader for our software development team."
+      },
+      {
+        "school":"Abdulhakim Altunkaya",
+        "degree":"Intern (Blockchain, MERN and Mobile)",
+        "graduated":"2023 January - ongoing",
+        "description":"Abdulhakim's expertise in blockchain, MERN web development, and mobile development make him an essential asset to our software company team. His extensive experience in creating innovative and user-friendly applications has resulted in multiple successful launches and has earned him the respect of his colleagues and clients alike. Abdulhakim's active involvement in open-source projects on GitHub and his participation in hackathons showcase his passion for innovation and dedication to continuous learning. His strong skills in Solidity, MERN stack and React Native combined with his excellent English and intermediate German language skills contribute significantly to the success of our projects."
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2018 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2017 - February 2018",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "Languages":[
+      {
+        "name":"Solidity",
+        "level":"100%"
+      },
+      {
+        "name":"Javascript",
+        "level":"100%"
+      },
+      {
+        "name":"React.js",
+        "level":"100%"
+      },
+      {
+        "name":"React Native",
+        "level":"100%"
+      },
+      {
+        "name":"Node.js",
+        "level":"100%"
+      },
+      {
+        "name":"HTML & CSS",
+        "level":"100%"
+      },
+      {
+        "name":"Python",
+        "level":"100%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
