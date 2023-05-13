@@ -20,15 +20,17 @@ class Footer extends Component {
         <div className="row">
           <Fade bottom>
             <div className="twelve columns">
-              <ul className="social-links">{networks}</ul>
+              {/* <ul className="social-links">{networks}</ul> */}
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
+                <li>&copy; Nordic Giant</li>
                 <li>
-                  Design by{" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
                     Styleshout
                   </a>
+                </li>
+                <li>
+                  Abdulhakim Altunkaya
                 </li>
               </ul>
             </div>
