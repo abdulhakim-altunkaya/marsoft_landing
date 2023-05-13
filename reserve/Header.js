@@ -65,7 +65,18 @@ class Header extends Component {
               <h3>{description}.</h3>
             </Fade>
             <hr />
-
+            {/*
+                        <Fade bottom duration={2000}>
+              <ul className="social">
+                <a href={project} className="button btn project-btn">
+                  <i className="fa fa-book"></i>Project
+                </a>
+                <a href={github} className="button btn github-btn">
+                  <i className="fa fa-github"></i>Github
+                </a>
+              </ul>
+            </Fade>
+            */}
 
           </div>
         </div>
