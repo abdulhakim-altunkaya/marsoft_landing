@@ -32,74 +32,70 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
-                <fieldset>
-                  <div>
-                    <label htmlFor="contactName">
-                      Name <span className="required">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactName"
-                      name="contactName"
-                      onChange={this.handleChange}
-                    />
-                  </div>
 
-                  <div>
-                    <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactEmail"
-                      name="contactEmail"
-                      onChange={this.handleChange}
-                    />
-                  </div>
 
-                  <div>
-                    <label htmlFor="contactSubject">Subject</label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactSubject"
-                      name="contactSubject"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
-                    </label>
-                    <textarea
-                      cols="50"
-                      rows="15"
-                      id="contactMessage"
-                      name="contactMessage"
-                    ></textarea>
-                  </div>
-
-                  <div>
-                    <button className="submit">Submit</button>
-                    <span id="image-loader">
-                      <img alt="" src="images/loader.gif" />
-                    </span>
-                  </div>
-                </fieldset>
-              </form>
-
-              <div id="message-warning"> Error boy</div>
-              <div id="message-success">
-                <i className="fa fa-check"></i>Your message was sent, thank you!
-                <br />
+            <div className="widget widget_tweets">
+                <h4 className="widget-title">Pricing Policy</h4>
+                <div id="pricing-policy">
+                <span>
+                  Our pricing is competitive and based on the specific requirements of your project. Here are some realistic price ranges for software development services in 2023:
+                </span>
+                <ul>
+                  <li>
+                    Custom Web Development:
+                    <ul>
+                      <li>Basic informational website: $3,000 to $10,000</li>
+                      <li>E-commerce website: $5,000 to $20,000</li>
+                      <li>Web application development: $10,000 to $50,000 (or more, depending on complexity)</li>
+                      <li>Custom API integration: $2,000 to $10,000</li>
+                      <li>Content management system (CMS) development: $5,000 to $30,000</li>
+                      <li>Progressive Web App (PWA) development: $10,000 to $40,000</li>
+                      <li>Responsive web design: $3,000 to $12,000</li>
+                      <li>Website maintenance and updates: $500 to $2,000 per month</li>
+                      <li>Website performance optimization: $1,000 to $5,000</li>
+                      <li>Website security enhancements: $1,000 to $5,000</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Mobile Application Development:
+                    <ul>
+                      <li>Simple mobile app (single platform): $10,000 to $30,000</li>
+                      <li>Complex mobile app (multiple platforms): $30,000 to $100,000 (or more, depending on complexity and platforms)</li>
+                      <li>Mobile app backend development (APIs, databases): $5,000 to $20,000</li>
+                      <li>App store deployment and management: $1,000 to $5,000</li>
+                      <li>Mobile app UI/UX design: $3,000 to $15,000</li>
+                      <li>Mobile app testing and quality assurance: $2,000 to $10,000</li>
+                      <li>Mobile app maintenance and updates: $1,000 to $5,000 per month</li>
+                      <li>Mobile app performance optimization: $2,000 to $10,000</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Blockchain Development:
+                    <ul>
+                      <li>Smart contract development: $5,000 to $20,000</li>
+                      <li>Decentralized application (DApp) development: $10,000 to $50,000 (or more, depending on complexity and integration requirements)</li>
+                      <li>Blockchain consulting and implementation: $3,000 to $15,000</li>
+                      <li>Token creation and ICO development: $10,000 to $50,000</li>
+                      <li>Blockchain security audit: $5,000 to $20,000</li>
+                      <li>Blockchain wallet development: $5,000 to $20,000</li>
+                      <li>Blockchain integration with existing systems: $5,000 to $30,000</li>
+                      <li>Blockchain supply chain solution: $10,000 to $50,000</li>
+                    </ul>
+                  </li>
+                </ul>
+                <span>
+                  Please note that these price ranges are estimates and can vary based on the specific project requirements.
+                </span> <br />
+                <span>
+                  In addition to our development services, we also offer comprehensive after-sale support. Our team is dedicated to providing reliable assistance and maintenance after the project is delivered.
+                </span> <br />
+                <span>
+                  Contact us today to discuss your project requirements and get a customized pricing quote that aligns with your budget, goals, and ongoing support needs.
+                </span>
               </div>
+              </div>
+
+
             </div>
           </Slide>
 
@@ -111,7 +107,8 @@ class Contact extends Component {
                   {name}
                   <br />
                   {street} <br />
-                  {city}, {state} {zip}
+                  {city}, {state} {zip} <br />
+                  E-mail: info@marsoftyazilim.com
                   <br />
                   <span>{phone}</span>
                 </p>
